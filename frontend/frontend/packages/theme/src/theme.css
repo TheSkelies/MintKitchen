@@ -1,0 +1,19 @@
+/**
+ * CSS-переменные MintKitchen.
+ * Импортируй этот файл в корне каждого приложения.
+ */
+:root {
+  --mk-mint: #9AF0D8;
+  --mk-mint-soft: #D8FAF0;
+  --mk-mint-dark: #6CC8AE;
+  --mk-blue: #94C8F6;
+  --mk-blue-soft: #E0F0FD;
+  --mk-coffee: #694D4B;
+  --mk-coffee-dark: #503735;
+  --mk-coffee-light: #917674;
+  --mk-white: #FFFFFF;
+  --mk-bg: #FAFDFC;
+  --mk-bg-blue: #F4F9FE;
+  --mk-border: #E5EEE9;
+  --mk-muted: #8A9A94;
+}
