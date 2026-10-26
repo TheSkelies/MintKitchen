@@ -1,0 +1,21 @@
+{
+  "name": "mintkitchen",
+  "private": true,
+  "scripts": {
+    "dev:host": "pnpm --filter host dev",
+    "dev:auth": "pnpm --filter auth dev",
+    "dev:home": "pnpm --filter home dev",
+    "dev:recipes": "pnpm --filter recipes dev",
+    "dev:video": "pnpm --filter video dev",
+    "dev:admin": "pnpm --filter admin dev",
+    "build:all": "pnpm --parallel --filter \"./apps/*\" build",
+    "preview:auth": "pnpm --filter auth preview",
+    "preview:home": "pnpm --filter home preview",
+    "preview:recipes": "pnpm --filter recipes preview",
+    "preview:video": "pnpm --filter video preview",
+    "preview:admin": "pnpm --filter admin preview",
+    "preview:host": "pnpm --filter host preview",
+    "preview:all": "pnpm --parallel --filter \"./apps/*\" preview",
+    "start": "pnpm build:all && pnpm preview:all"
+  }
+}
