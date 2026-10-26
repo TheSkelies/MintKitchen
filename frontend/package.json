@@ -1,0 +1,13 @@
+{
+  "name": "mintkitchen-full",
+  "private": true,
+  "scripts": {
+    "frontend:install": "cd frontend && pnpm install",
+    "frontend:build": "cd frontend && pnpm build:all",
+    "frontend:start": "cd frontend && pnpm preview:all",
+    "frontend:dev": "cd frontend && pnpm dev:host",
+    "backend:install": "cd backend && pip install -e .",
+    "backend:start": "cd backend && uvicorn app.main:app --reload --port 8000",
+    "start:all": "concurrently \"pnpm frontend:start\" \"pnpm backend:start\""
+  }
+}
