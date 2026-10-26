@@ -1,0 +1,10 @@
+{
+  "name": "@mintkitchen/theme",
+  "version": "1.0.0",
+  "main": "./src/colors.ts",
+  "types": "./src/colors.ts",
+  "exports": {
+    ".": "./src/colors.ts",
+    "./theme.css": "./src/theme.css"
+  }
+}
