@@ -1,0 +1,23 @@
+[project]
+name = "spo-products-backend"
+version = "0.1.0"
+description = "Recipe selection backend"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.30,<1.0",
+    "sqlalchemy>=2.0,<3.0",
+    "pydantic-settings>=2.0,<3.0",
+    "python-multipart>=0.0.9,<1.0",
+    "psycopg2-binary>=2.9.9,<3.0",
+    "pymorphy3>=2.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0,<9.0",
+    "httpx>=0.27,<1.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
