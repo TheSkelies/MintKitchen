@@ -157,6 +157,8 @@ pnpm install
 После перезагрузки компьютера:
 
 bash
+
+
 cd mintkitchen-frontend
 pnpm start
 Не нужно повторять install и approve-builds.
